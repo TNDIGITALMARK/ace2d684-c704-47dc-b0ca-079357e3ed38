@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Gentleman's Cut - Premium Barber Shop | Downtown District",
+  description: "Experience unmatched grooming at Gentleman's Cut barber shop. Expert haircuts, beard sculpting, hot towel shaves. Book your appointment today!",
 };
 
 export default function RootLayout({
@@ -40,8 +40,8 @@ export default function RootLayout({
           <ZyloProvider>
             <ThemeProvider
               attribute="class"
-              defaultTheme="light"
-              enableSystem
+              defaultTheme="dark"
+              enableSystem={false}
               disableTransitionOnChange
             >
               <TooltipProvider>
